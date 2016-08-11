@@ -15,7 +15,7 @@ h1.intro-text {
 }
 
 h1.name {
-	font-size: 100px;
+	font-size: 90px;
 	font-family: cursive;
 }
 
@@ -121,11 +121,19 @@ img.construction {
 }
 
 .recipe {
+	float:left;
 	color: yellow;
 	font-size: 30px;
 	font-family: 'Comic Sans MS';
-	padding-top: 30px;
+	/*padding-top: 30px;*/
     padding-right: 100px;
     padding-bottom: 30px;
     padding-left: 100px;
+}
+
+#smoothie-image {
+	content:url('../img/smoothie.jpg');
+	float: right;
+	padding-top: 100px;
+    padding-right: 120px;
 }
