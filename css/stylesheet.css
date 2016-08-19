@@ -27,11 +27,17 @@ h1.name {
 
 h2.recipe-header {
 	text-align: left;
+	color: lightgrey;
+	text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
 }
 
 h2.recipe-subheader {
 	text-align: left;
-	font-size: 25px;
+	font-size: 30px;
 }
 
 h3 {
@@ -129,19 +135,28 @@ img.construction {
 .recipe {
 	float:left;
 	color: gold;
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Comic Sans MS';
 	padding-top: -30px;
     padding-right: 100px;
     padding-bottom: 30px;
     padding-left: 100px;
+    width: 85%;
 }
+
 
 #smoothie-image {
 	content:url('../img/smoothie.jpg');
 	float: right;
 	padding-top: 140px;
-    padding-right: 50px;
+	padding-right: 100px;
+}
+
+#pancake-image {
+	content:url('../img/pancakemix.jpg');
+	float: right;
+	padding-top: 140px;
+	padding-right: 100px;
 }
 
 #leather-image {
@@ -159,8 +174,17 @@ img.construction {
 }
 
 #form-download {
-	font-size: 30px;
+	font-size: 50px;
+	font-family: cursive;
+	text-align: center;
+}
+
+#leather-description {
+	font-size: 25px;
 	font-family: 'Comic Sans MS';
+	color: gold;
+	margin-right: 150px;
+	margin-left: 150px;
 	text-align: center;
 }
 
